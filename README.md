@@ -12,6 +12,32 @@ Inspect real **TXODDS World Cup free-tier** data end-to-end: generate a Solana w
 > Flags: `--explain` (narrate each line), `--save` (capture to `samples/demo.json`),
 > `--from-samples` (replay offline). Decoders: [`lib/decode.mjs`](./lib/decode.mjs).
 
+## Sample output
+
+`node probe.mjs --from-samples --explain`:
+
+```text
+=== FIXTURES (World Cup + Int. Friendlies) ===
+9 fixtures
+competitions: [ '430:Friendlies', '72:World Cup' ]
+  World Cup fixtures: 6  (e.g. Mexico vs England)
+
+=== ODDS snapshot ===
+picked: USA vs Belgium  (World Cup, 18193785) — 4 odds entries
+
+[0] TXLineStablePriceDemargined (10021) | type=1X2_PARTICIPANT_RESULT period=null params=null | inRunning=false state=null
+  names : [ 'part1', 'draw', 'part2' ]
+  prices: [ 2769, 3610, 2763 ] | pct: [ '36.114', '27.701', '36.193' ]
+  → decimal odds: 2.77 / 3.61 / 2.76   (Prices ÷ 1000)
+  → implied prob: 36.1% / 27.7% / 36.2%   (Pct; de-marginized for TXLineStablePriceDemargined)
+…
+=== SCORES snapshot ===
+picked: Mexico vs England (World Cup) — 1 entries
+…
+Stats decoded: TOTAL P1 2G 2Y 0R 10C | P2 3G 4Y 1R 2C   H1 P1 1G 0Y 0R 4C | P2 2G 1Y 0R 2C   H2 P1 1G 0Y 0R 5C | P2 2G 1Y 0R 2C   ET1 P1 1G 2Y 0R 6C | P2 1G 3Y 1R 0C   ET2 P1 0G 0Y 0R 0C | P2 0G 0Y 0R 0C   PE P1 0G 0Y 0R 0C | P2 0G 0Y 0R 0C
+  → Stats keys encode (period*1000)+baseKey: 1/2=goals, 3/4=yellow, 5/6=red, 7/8=corners (P1/P2); 0=total, +1000=H1, +2000=H2…
+```
+
 ## Docs
 
 Start with the [walkthrough](./docs/walkthrough.md), then the [decode examples](./docs/decode-examples.md).
