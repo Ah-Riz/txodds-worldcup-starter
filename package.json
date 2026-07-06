@@ -1,0 +1,19 @@
+{
+  "name": "txodds-worldcup-starter",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "TXODDS World Cup free-tier data probe: wallet -> subscribe -> activate -> inspect fixtures/odds/scores",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "probe": "node probe.mjs"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "tweetnacl": "^1.0.3"
+  }
+}

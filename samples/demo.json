@@ -1,0 +1,439 @@
+{
+  "fixtures": [
+    {
+      "Ts": 1781787600000,
+      "StartTime": 1784386800000,
+      "Competition": "Friendlies",
+      "CompetitionId": 430,
+      "FixtureGroupId": 10116166,
+      "Participant1Id": 1378,
+      "Participant1": "Vietnam",
+      "Participant2Id": 1215,
+      "Participant2": "Myanmar",
+      "FixtureId": 18143850,
+      "Participant1IsHome": true
+    },
+    {
+      "Ts": 1782716400000,
+      "StartTime": 1790348400000,
+      "Competition": "Friendlies",
+      "CompetitionId": 430,
+      "FixtureGroupId": 10116166,
+      "Participant1Id": 1519,
+      "Participant1": "Australia",
+      "Participant2Id": 1634,
+      "Participant2": "Brazil",
+      "FixtureId": 18182808,
+      "Participant1IsHome": true
+    },
+    {
+      "Ts": 1782716400000,
+      "StartTime": 1790694000000,
+      "Competition": "Friendlies",
+      "CompetitionId": 430,
+      "FixtureGroupId": 10116166,
+      "Participant1Id": 1519,
+      "Participant1": "Australia",
+      "Participant2Id": 1634,
+      "Participant2": "Brazil",
+      "FixtureId": 18182864,
+      "Participant1IsHome": true
+    },
+    {
+      "Ts": 1783292400000,
+      "StartTime": 1783299600000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115574,
+      "Participant1Id": 2545,
+      "Participant1": "Mexico",
+      "Participant2Id": 1888,
+      "Participant2": "England",
+      "FixtureId": 18192996,
+      "Participant1IsHome": true,
+      "GameState": 1
+    },
+    {
+      "Ts": 1783162800000,
+      "StartTime": 1783382400000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115574,
+      "Participant1Id": 3220,
+      "Participant1": "USA",
+      "Participant2Id": 1575,
+      "Participant2": "Belgium",
+      "FixtureId": 18193785,
+      "Participant1IsHome": true,
+      "GameState": 1
+    },
+    {
+      "Ts": 1783040400000,
+      "StartTime": 1783364400000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115574,
+      "Participant1Id": 2802,
+      "Participant1": "Portugal",
+      "Participant2Id": 3021,
+      "Participant2": "Spain",
+      "FixtureId": 18198205,
+      "Participant1IsHome": true
+    },
+    {
+      "Ts": 1783162800000,
+      "StartTime": 1783440000000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115574,
+      "Participant1Id": 1489,
+      "Participant1": "Argentina",
+      "Participant2Id": 1867,
+      "Participant2": "Egypt",
+      "FixtureId": 18202701,
+      "Participant1IsHome": true,
+      "GameState": 1
+    },
+    {
+      "Ts": 1783134000000,
+      "StartTime": 1783454400000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115574,
+      "Participant1Id": 3099,
+      "Participant1": "Switzerland",
+      "Participant2Id": 1748,
+      "Participant2": "Colombia",
+      "FixtureId": 18202783,
+      "Participant1IsHome": true,
+      "GameState": 1
+    },
+    {
+      "Ts": 1783206000000,
+      "StartTime": 1783627200000,
+      "Competition": "World Cup",
+      "CompetitionId": 72,
+      "FixtureGroupId": 10115675,
+      "Participant1Id": 1999,
+      "Participant1": "France",
+      "Participant2Id": 2530,
+      "Participant2": "Morocco",
+      "FixtureId": 18209181,
+      "Participant1IsHome": true,
+      "GameState": 1
+    }
+  ],
+  "oddsFixture": {
+    "Ts": 1783162800000,
+    "StartTime": 1783382400000,
+    "Competition": "World Cup",
+    "CompetitionId": 72,
+    "FixtureGroupId": 10115574,
+    "Participant1Id": 3220,
+    "Participant1": "USA",
+    "Participant2Id": 1575,
+    "Participant2": "Belgium",
+    "FixtureId": 18193785,
+    "Participant1IsHome": true,
+    "GameState": 1
+  },
+  "odds": [
+    {
+      "FixtureId": 18193785,
+      "MessageId": "1836532793:00003:000010-10021-stab",
+      "Ts": 1783307244607,
+      "Bookmaker": "TXLineStablePriceDemargined",
+      "BookmakerId": 10021,
+      "SuperOddsType": "1X2_PARTICIPANT_RESULT",
+      "GameState": null,
+      "InRunning": false,
+      "MarketParameters": null,
+      "MarketPeriod": null,
+      "PriceNames": [
+        "part1",
+        "draw",
+        "part2"
+      ],
+      "Prices": [
+        2769,
+        3610,
+        2763
+      ],
+      "Pct": [
+        "36.114",
+        "27.701",
+        "36.193"
+      ]
+    },
+    {
+      "FixtureId": 18193785,
+      "MessageId": "1836532752:00003:000060-10021-stab",
+      "Ts": 1783307216966,
+      "Bookmaker": "TXLineStablePriceDemargined",
+      "BookmakerId": 10021,
+      "SuperOddsType": "ASIANHANDICAP_PARTICIPANT_GOALS",
+      "GameState": null,
+      "InRunning": false,
+      "MarketParameters": "line=0",
+      "MarketPeriod": null,
+      "PriceNames": [
+        "part1",
+        "part2"
+      ],
+      "Prices": [
+        1988,
+        2013
+      ],
+      "Pct": [
+        "50.302",
+        "49.677"
+      ]
+    },
+    {
+      "FixtureId": 18193785,
+      "MessageId": "1836532793:00003:000016-10021-stab",
+      "Ts": 1783307244607,
+      "Bookmaker": "TXLineStablePriceDemargined",
+      "BookmakerId": 10021,
+      "SuperOddsType": "ASIANHANDICAP_PARTICIPANT_GOALS",
+      "GameState": null,
+      "InRunning": false,
+      "MarketParameters": "line=-0.25",
+      "MarketPeriod": null,
+      "PriceNames": [
+        "part1",
+        "part2"
+      ],
+      "Prices": [
+        2397,
+        1716
+      ],
+      "Pct": [
+        "NA",
+        "NA"
+      ]
+    },
+    {
+      "FixtureId": 18193785,
+      "MessageId": "1836532794:00003:000014-10021-stab",
+      "Ts": 1783307245105,
+      "Bookmaker": "TXLineStablePriceDemargined",
+      "BookmakerId": 10021,
+      "SuperOddsType": "OVERUNDER_PARTICIPANT_GOALS",
+      "GameState": null,
+      "InRunning": false,
+      "MarketParameters": "line=3.25",
+      "MarketPeriod": null,
+      "PriceNames": [
+        "over",
+        "under"
+      ],
+      "Prices": [
+        2522,
+        1657
+      ],
+      "Pct": [
+        "NA",
+        "NA"
+      ]
+    }
+  ],
+  "scoreFixture": {
+    "Ts": 1783292400000,
+    "StartTime": 1783299600000,
+    "Competition": "World Cup",
+    "CompetitionId": 72,
+    "FixtureGroupId": 10115574,
+    "Participant1Id": 2545,
+    "Participant1": "Mexico",
+    "Participant2Id": 1888,
+    "Participant2": "England",
+    "FixtureId": 18192996,
+    "Participant1IsHome": true,
+    "GameState": 1
+  },
+  "scores": [
+    {
+      "FixtureId": 18192996,
+      "GameState": "scheduled",
+      "StartTime": 1783299600000,
+      "IsTeam": true,
+      "FixtureGroupId": 10115574,
+      "CompetitionId": 72,
+      "CountryId": 466,
+      "SportId": 1,
+      "Participant1IsHome": true,
+      "Participant2Id": 1888,
+      "Participant1Id": 2545,
+      "CoverageSecondaryData": true,
+      "CoverageType": "TV/Stream",
+      "Action": "yellow_card",
+      "Id": 861,
+      "Ts": 1783306874704,
+      "ConnectionId": 946,
+      "Seq": 994,
+      "StatusId": 4,
+      "Type": "Soccer",
+      "Confirmed": true,
+      "Clock": {
+        "Running": true,
+        "Seconds": 5924
+      },
+      "Score": {
+        "Participant1": {
+          "H1": {
+            "Goals": 1,
+            "Corners": 4
+          },
+          "HT": {
+            "Goals": 1,
+            "Corners": 5
+          },
+          "H2": {
+            "Goals": 1,
+            "YellowCards": 2,
+            "Corners": 6
+          },
+          "Total": {
+            "Goals": 2,
+            "YellowCards": 2,
+            "Corners": 10
+          }
+        },
+        "Participant2": {
+          "H1": {
+            "Goals": 2,
+            "YellowCards": 1,
+            "Corners": 2
+          },
+          "HT": {
+            "Goals": 2,
+            "YellowCards": 1,
+            "Corners": 2
+          },
+          "H2": {
+            "Goals": 1,
+            "YellowCards": 3,
+            "RedCards": 1
+          },
+          "Total": {
+            "Goals": 3,
+            "YellowCards": 4,
+            "RedCards": 1,
+            "Corners": 2
+          }
+        }
+      },
+      "Data": {
+        "PlayerId": 48693
+      },
+      "Stats": {
+        "1": 2,
+        "2": 3,
+        "3": 2,
+        "4": 4,
+        "5": 0,
+        "6": 1,
+        "7": 10,
+        "8": 2,
+        "1001": 1,
+        "1002": 2,
+        "1003": 0,
+        "1004": 1,
+        "1005": 0,
+        "1006": 0,
+        "1007": 4,
+        "1008": 2,
+        "2001": 1,
+        "2002": 2,
+        "2003": 0,
+        "2004": 1,
+        "2005": 0,
+        "2006": 0,
+        "2007": 5,
+        "2008": 2,
+        "3001": 1,
+        "3002": 1,
+        "3003": 2,
+        "3004": 3,
+        "3005": 0,
+        "3006": 1,
+        "3007": 6,
+        "3008": 0,
+        "4001": 0,
+        "4002": 0,
+        "4003": 0,
+        "4004": 0,
+        "4005": 0,
+        "4006": 0,
+        "4007": 0,
+        "4008": 0,
+        "5001": 0,
+        "5002": 0,
+        "5003": 0,
+        "5004": 0,
+        "5005": 0,
+        "5006": 0,
+        "5007": 0,
+        "5008": 0,
+        "6001": 0,
+        "6002": 0,
+        "6003": 0,
+        "6004": 0,
+        "6005": 0,
+        "6006": 0,
+        "6007": 0,
+        "6008": 0,
+        "7001": 0,
+        "7002": 0,
+        "7003": 0,
+        "7004": 0,
+        "7005": 0,
+        "7006": 0,
+        "7007": 0,
+        "7008": 0
+      },
+      "Participant": 2,
+      "PossibleEvent": {},
+      "PlayerStats": {
+        "Participant1": {
+          "519204": {
+            "penaltyAttempts": 1,
+            "penaltyGoals": 1
+          },
+          "658987": {
+            "goals": 1
+          },
+          "1011285": {
+            "yellowCards": 1
+          },
+          "10097093": {
+            "yellowCards": 1
+          }
+        },
+        "Participant2": {
+          "48693": {
+            "yellowCards": 1
+          },
+          "70481": {
+            "penaltyAttempts": 1,
+            "penaltyGoals": 1,
+            "yellowCards": 1
+          },
+          "720122": {
+            "yellowCards": 1
+          },
+          "1170403": {
+            "goals": 2
+          },
+          "10095175": {
+            "redCards": 1
+          },
+          "10194364": {
+            "yellowCards": 1
+          }
+        }
+      }
+    }
+  ]
+}
